@@ -1,0 +1,625 @@
+{
+  "language": "en",
+
+  "common": {
+    "loading": "Loading...",
+    "search": "Search",
+    "viewDetails": "View Details",
+    "applyNow": "Apply Now",
+    "cancelText": "Cancel at any time",
+    "noDataFound": "No Data Found",
+    "backToHome": "Back To Home",
+    "readMore": "Read More",
+    "close": "Close",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "cardButton": "View the property"
+  },
+
+  "error": {
+    "notFound": "Page Not Found",
+    "serverError": "Server Error",
+    "unauthorized": "Unauthorized Access",
+    "forbidden": "Forbidden Access"
+  },
+
+  "success": {
+    "dataSaved": "Data saved successfully",
+    "dataUpdated": "Data updated successfully",
+    "dataDeleted": "Data deleted successfully"
+  },
+
+  "plans": [
+    {
+      "name": "basic",
+      "price": "10.00",
+      "currency": "USD",
+      "description": "Get your property seen by basic searchers.",
+      "features": [
+        "List for 30 days",
+        "10 Photos",
+        "Standard title & description",
+        "Appears in search results",
+        "Email support"
+      ],
+      "recommended": false
+    },
+    {
+      "name": "premium",
+      "price": "20.00",
+      "currency": "USD",
+      "description": "Boost visibility and attract more tenants.",
+      "features": [
+        "List for 60 days",
+        "25 Photos",
+        "Enhanced description & highlights",
+        "Higher search ranking",
+        "Priority customer support",
+        "Views & analytics dashboard"
+      ],
+      "recommended": true
+    },
+    {
+      "name": "featured",
+      "price": "30.99",
+      "currency": "USD",
+      "description": "Top placement for fastest rental.",
+      "features": [
+        "List for 90 days",
+        "Unlimited Photos & Videos",
+        "Featured badge on search",
+        "Top of search results",
+        "24/7 dedicated support",
+        "Detailed analytics & lead export",
+        "Social media promotion"
+      ],
+      "recommended": false
+    }
+  ],
+
+  "header": {
+    "home": "Home",
+    "property": "Property",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Login",
+    "register": "Sgin Up",
+    "profile": "Profile",
+    "logout": "Logout",
+    "access": "Access to all properties"
+  },
+
+  "auth": {
+    "login": {
+      "title": "Login to your account",
+      "footer": "Don't have an account?",
+      "forget": "Forget password"
+    },
+
+    "register": {
+      "title": "Registration",
+      "name": "name",
+      "card": "Card Details",
+      "footer": "You have an account?",
+      "button": "Submit",
+      "signIn": "SignIn"
+    },
+
+    "loading": "Sending...",
+
+    "payment": {
+      "title": "Get access for just €20 / month",
+      "modal": {
+        "firstText": "Sign up",
+        "secondText": "to view more information."
+      },
+      "vast": "Premium vereist",
+      "button": "Submit",
+      "signIn": "SignIn"
+    },
+
+    "forgetPassword": {
+      "successTitle": "Email Sent!",
+      "successMessage": "We've sent a password reset link to your email address.",
+      "checkEmail": "Please check your inbox and follow the instructions.",
+      "title": "Forgot Password",
+      "description": "Enter your email to receive a password reset link",
+      "email": "Email Address",
+      "emailPlaceholder": "your@email.com",
+      "resetButton": "Send Reset Link",
+      "rememberPassword": "Remember your password?",
+      "emailNotFound": "No account found with this email address",
+      "errorMessage": "Failed to send reset link. Please try again.",
+      "backToLogin": "Back To Login"
+    },
+
+    "validation": {
+      "nameRequired": "Name is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email address",
+      "passwordRequired": "Please enter your password!",
+      "passwordLength": ""
+    },
+
+    "toastMessage": {
+      "successMessage": "Successfully login",
+      "errorMessage": "Failed, Please try again.",
+      "logoutMessage": "Successfully logged out."
+    },
+
+    "common": {
+      "email": "Email",
+      "bank": "Select Your Bank",
+      "pass": "Password",
+      "msg": "You will be redirected to your bank to complete the payment."
+    },
+
+    "checkout": {
+      "payButton": "Payment Now",
+      "payCard": "Credit Card",
+      "payIdeal": "🇳🇱 iDEAL",
+      "subscriptionFailed": "Subscription failed. Please try again.",
+      "noPlanSelected": "Please choose a plan.",
+      "choosePlan": "Choose a plan to proceed.",
+      "userNotAuthenticated": "User not authenticated. Please log in."
+    }
+  },
+
+  "userProfile": {
+    "phone": "Phone",
+    "paymentMethod": "Payment Method",
+    "paymentHistory": "Payment History",
+    "date": "Date",
+    "amount": "Amount",
+    "method": "Method",
+    "status": "Status",
+    "receipt": "Receipt",
+    "download": "Download",
+    "plan": "Active Plan",
+    "billing": "Billing",
+    "nextPayment": "Next Payment",
+    "activePlan": "Upgrade not",
+    "card": "Card",
+    "paid": "Paid",
+    "month": "Month",
+    "premium": "Premium",
+    "free": "Free",
+    "unavailable": "Currently unavailable",
+    "failed": "Failed"
+  },
+
+  "profile": {
+    "left": {
+      "title": "Membership Details",
+      "PaymentStatus": "Payment Status",
+      "paid": "Unpaid",
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "right": {
+      "title": "Profile Information",
+      "email": "Email Address",
+      "button": "Edit"
+    }
+  },
+
+  "footer": {
+    "register": {
+      "title": "Register and view our 500+ rental properties",
+      "desc": "We have a large collection of affordable rental properties to which new properties are added every day. Don't wait any longer and start searching.",
+      "button": "Start Searching"
+    },
+    "logo": "Tell us what you need, and we’ll deliver the right rentals to your inbox—no stress, no clutter.",
+    "quick": {
+      "link": "Quick",
+      "home": "Home",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "company": {
+      "link": "Company",
+      "terms": "Terms & Conditions",
+      "privacy": "Privacy Policy",
+      "cookie": "Cookie Policy"
+    },
+    "subscribed": "Receive emails with rentals that meet your requirements.",
+    "inputPlaceH": "Enter your email",
+    "button": "Subscribe",
+    "copyRight": "© 2025 Huurscanner Property. All Rights Reserved."
+  },
+
+  "home": {
+    "hero": {
+      "subTitle": "IT’S GREAT TO BE HOME!",
+      "title1": "Find your Affordable Rental Home In The Netherlands Quickly",
+      "title2": "The Netherlands",
+      "search": {
+        "place": "Search Address...",
+        "min": "Min Price",
+        "max": "Max Price",
+        "button": "Search"
+      }
+    },
+    "PopularCity": {
+      "title": "Popular Cities",
+      "desc": "Discover the perfect place to live in the most popular cities of the Netherlands",
+      "properties": "Properties"
+    },
+    "about": {
+      "subTitle": "About Huurscanner",
+      "title": "Driven by Trusted",
+      "desc1": "At NL Property, we believe that finding a rental home in the Netherlands should be simple, honest, and stress-free. That’s why we’ve created a platform that’s fully focused on renters—no agents, no complicated steps, no hidden fees.",
+      "button": "Learn more"
+    },
+    "recent": {
+      "title": "Recently found",
+      "desc": "Affordable homes we've recently found",
+      "button": "View Details",
+      "rent": "FOR RENT",
+      "featured": "FEATURED",
+      "viewDetails": "View Details",
+      "beds": "Beds"
+    },
+    "work": {
+      "title": "How does it work?",
+      "desc": "Homes that we have just discovered"
+    },
+    "register": {
+      "title": "Register and view our 20,000+ rental properties",
+      "desc": "We have a large collection of affordable rental properties to which new properties are added every day. Don't wait any longer and start searching."
+    },
+    "howworks": [
+      {
+        "title": "Sgin Up",
+        "desc": "Create your account in just a few minutes and start searching right away."
+      },
+      {
+        "title": "Find A Home",
+        "desc": "Discover your dream rental in your favorite city using our handy filters."
+      },
+      {
+        "title": "Stay Updated",
+        "desc": "Still haven’t found what you’re looking for? No worries, you’ll receive daily or weekly updates with new rentals straight to your inbox. Easy as that!"
+      },
+      {
+        "title": "Time To Move",
+        "desc": "Respond, schedule a viewing, and start packing. Your new home is waiting!"
+      }
+    ]
+  },
+
+  "about": {
+    "hero": {
+      "title1": "How Renting Works On",
+      "title2": "Our Platform",
+      "desc": "Discover and compare rental options from trusted companies all in one place. Browse listings, choose what suits you best, and book directly. We make it simple, secure, and seamless. A small service fee may apply."
+    },
+    "whyChoose": {
+      "title": "Why Choose For HuurScanner",
+      "desc": "At HuurScanner, we believe that finding a rental home should be simple and stress-free, even if you don’t speak Dutch. Our platform is built to make your search fast, easy, and accessible for everyone. Whether you're an expat, international student, or just looking for a new place, HuurScanner helps you find homes that match your budget and location. With smart filters, regular updates, and the ability to contact landlords directly, you're always one step closer to your next home. No hassle, no confusion, just a smooth path to renting.",
+      "button": "Explore your home"
+    },
+
+    "faq": {
+      "title": "FAQ",
+      "item": [
+        {
+          "title": "How does renting work through Huurscanner?",
+          "desc": "With Huurscanner, creating an account is quick and easy. Once you're signed up, you can instantly browse available rental listings, apply filters, and respond to properties. Everything is arranged safely online, without hassle."
+        },
+        {
+          "title": "Is Huurscanner a reliable platform?",
+          "desc": "Absolutely. At Huurscanner, we only work with verified landlords and trusted partners. This ensures a safe and secure rental experience, every time."
+        },
+        {
+          "title": "Can I view a property before renting through Huurscanner?",
+          "desc": "Yes, in most cases you can easily request a viewing. After you respond to a property, the landlord will contact you to schedule an appointment before you make a final decision."
+        },
+        {
+          "title": "How can I find affordable rental homes through Huurscanner?",
+          "desc": "Huurscanner helps you quickly find affordable rentals using smart filters like maximum rent, property type, and location. You’ll instantly see up-to-date listings from trusted landlords, with no hidden fees — making it easy to find a home that fits your budget."
+        },
+        {
+          "title": "Can I find rental properties in Amsterdam, Rotterdam, or Utrecht through Huurscanner?",
+          "desc": "Yes, Huurscanner offers new listings every day in top cities like Amsterdam, Rotterdam, Utrecht, The Hague, and more. Thanks to our advanced search filters, you can instantly view available properties per city — from studios to spacious apartments, all from verified landlords."
+        }
+      ]
+    }
+  },
+
+  "favouritePage": {
+    "breadcrumb": "My Favourites",
+    "title": "No Favorites Here!",
+    "desc": "Looks like you haven’t saved anything yet.",
+    "button": "Browse Properties"
+  },
+
+  "contact": {
+    "title": "Let’s Get In Touch",
+    "description": "Do you have a question about your subscription, a home, or something else? Feel free to let us know, we're happy to help.",
+    "email": "hellonlproperty.com",
+
+    "form": {
+      "firstName": {
+        "label": "First Name",
+        "placeholder": "Your First Name"
+      },
+      "lastName": {
+        "label": "Last Name",
+        "placeholder": "Your Last Name"
+      },
+      "email": {
+        "label": "Email Address",
+        "placeholder": "user@gmail.com"
+      },
+      "phone": {
+        "label": "Phone Number",
+        "placeholder": "(208) 555-0112"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Your message here..."
+      },
+      "submit": "Submit"
+    }
+  },
+
+  "terms": {
+    "title": "Terms and Conditions of NL Property",
+    "articles": {
+      "1": {
+        "title": "Article 1: Definitions",
+        "points": {
+          "1.1": "Subscriber: the consumer who has subscribed to Rentalerts.nl.",
+          "1.2": "Subscription: the agreement established between the consumer and Rentalerts.nl, whereby the consumer creates an account with Rentalerts.nl for a fee to use its services.",
+          "1.3": "Subscription Fee: the amount the consumer must pay to Rentalerts.nl to access its services.",
+          "1.4": "Account: a personalized username combined with a password that allows the consumer to access Rentalerts.nl's services.",
+          "1.5": "Cooling-off Period: the legal period of 14 (fourteen) days within which a consumer may cancel an agreement without giving any reason.",
+          "1.6": "Consumer: a natural person who is not acting in the exercise of a profession or business.",
+          "1.7": "Information: rental properties offered for rent by or on behalf of landlords on the relevant website, the link to which we email to you.",
+          "1.8": "Services: all information offered to the consumer by Rentalerts.nl via the website.",
+          "1.9": "Customer Service: the customer service of Rentalerts.nl, reachable at support@rentalerts.nl.",
+          "1.10": "Agreement: the remote agreement concluded via the website between Rentalerts.nl and the consumer, whereby the consumer purchases one or more services from Rentalerts.nl.",
+          "1.11": "Rentalerts.nl: the private company Metis International B.V., operating under the name Rentalerts.nl, located at P.O. Box 56822, 1040 AV Amsterdam, registered in the trade register of the Chamber of Commerce under number 91200725.",
+          "1.12": "Landlord: a natural or legal person offering a property for rent through the platform.",
+          "1.13": "Website: the website operated by Rentalerts.nl, accessible at www.rentalerts.nl."
+        }
+      },
+      "2": {
+        "title": "Article 2: Applicability",
+        "content": "These general terms and conditions apply to the agreement between the consumer and Rentalerts.nl unless otherwise agreed in writing with the consumer."
+      },
+      "3": {
+        "title": "Article 3: The Service(s)",
+        "content": "By subscribing, the consumer gains access to the Rentalerts.nl platform, where available rental offers can be viewed. This information is generated using various scrapers."
+      },
+      "4": {
+        "title": "Article 4: Disclaimer",
+        "points": {
+          "4.1": "Rentalerts.nl has no obligation to guarantee the consumer will successfully find a rental property.",
+          "4.2": "Rentalerts.nl is not responsible for the accuracy, correctness, or completeness of the information. Rentalerts.nl is not involved in creating the information and merely acts as a conduit without influencing its content."
+        }
+      },
+      "5": {
+        "title": "Article 5: Establishment of Subscription",
+        "points": {
+          "5.1": "The agreement is established once the consumer accepts the offer from Rentalerts.nl and meets the required conditions.",
+          "5.2": "Once the consumer electronically accepts the offer, Rentalerts.nl promptly confirms the acceptance electronically. The invoice for the first month is typically sent via email 14 to 21 days after subscription activation, and payment must be made through the link provided in that email. The subscription is concluded for a period of one month and is automatically renewed for another month unless canceled."
+        }
+      },
+      "6": {
+        "title": "Article 6: Subscription Fee and Payment",
+        "points": {
+          "6.1": "Rentalerts.nl will not increase subscription fees during the subscription unless due to legally mandated price changes. Price increases will not take place within the first three months of subscription activation, and Rentalerts.nl will provide prior notice of any increases.",
+          "6.2": "All service prices are in euros, including VAT and other government-imposed charges.",
+          "6.3": "Consumers are always obligated to pay all amounts due for the received services.",
+          "6.4": "Payments must be made immediately upon receiving the invoice unless otherwise agreed. The first month's invoice is usually sent via email 14 to 21 days after subscription activation, and payment must be made through the link provided.",
+          "6.5": "If the consumer fails to fulfill payment obligations after a reminder and an additional period of 14 (fourteen) days, statutory interest will be charged on the outstanding amount as per the consumer’s country's legislation. Rentalerts.nl may also charge extrajudicial collection fees as determined by local law. Rentalerts.nl reserves the right to adjust these amounts and percentages in favor of the consumer."
+        }
+      },
+      "7": {
+        "title": "Article 7: Duration and Termination",
+        "points": {
+          "7.1": "The agreement is entered into for an indefinite period unless otherwise stated or explicitly agreed in writing.",
+          "7.2": "The consumer may terminate the agreement at any time with a notice period of 30 days, effective the day after Rentalerts.nl receives the termination notice.",
+          "7.3": "Rentalerts.nl may also terminate the agreement with a 30-day notice period unless otherwise agreed or if legal circumstances justify immediate termination.",
+          "7.4": "Termination does not affect financial obligations, including outstanding payments for services already provided by Rentalerts.nl and any costs incurred during the notice period.",
+          "7.5": "Rentalerts.nl may immediately terminate the subscription if the consumer has significant payment arrears or if required by law."
+        }
+      },
+      "8": {
+        "title": "Article 8: Right of Withdrawal",
+        "points": {
+          "8.1": "The subscriber has the right to cancel the agreement within 14 days without stating any reason.",
+          "8.2": "The subscriber has a 14-day cooling-off period from the start of the subscription.",
+          "8.3": "To comply with the withdrawal period, it is sufficient for the consumer to send a notice before the withdrawal period expires.",
+          "8.4": "If the consumer cancels the agreement, Rentalerts.nl will refund all payments within 14 days from the day it was informed of the decision, provided payment was already made.",
+          "8.5": "To exercise the right of withdrawal, the consumer must notify Rentalerts.nl through an explicit statement (e.g., by post, fax, or email)."
+        }
+      },
+      "9": {
+        "title": "Article 9: Liability",
+        "points": {
+          "9.1": "Rentalerts.nl is only liable for direct damages resulting from intentional misconduct or gross negligence by Rentalerts.nl, its directors, or employees.",
+          "9.2": "Rentalerts.nl is not liable for indirect damages, including consequential damage, lost profits, missed savings, data loss, business disruption, or damage to third parties.",
+          "9.3": "The total liability for direct damages is limited to the amount paid by the consumer for the service that caused the damage."
+        }
+      },
+      "10": {
+        "title": "Article 10: Additional Provisions",
+        "points": {
+          "10.1": "Rentalerts.nl has the right to amend these terms and conditions. Significant changes will be communicated to the consumer."
+        }
+      },
+      "11": {
+        "title": "Article 11: Data Sharing",
+        "points": {
+          "11.1": "Rentalerts.nl reserves the right to sell or share consumer data with third parties for marketing, research, or business purposes."
+        }
+      },
+      "12": {
+        "title": "Article 12: Intellectual Property",
+        "points": {
+          "12.1": "All intellectual property rights regarding the website and services belong to Rentalerts.nl and/or its licensors."
+        }
+      },
+      "13": {
+        "title": "Article 13: Governing Law and Jurisdiction",
+        "points": {
+          "13.1": "This agreement is governed by Dutch law.",
+          "13.3": "These terms apply from January 31, 2025."
+        }
+      }
+    }
+  },
+
+  "privacy": {
+    "title": "Privacy Policy of Rent Alerts",
+    "intro": "Metis International B.V. operates the www.rentalerts.nl website, which provides a service that makes looking for an apartment easier and faster. The service contains sending links to newly available rental homes to our customers.",
+    "notice": "This page is used to inform website visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service, the Rent Alerts website.",
+    "consent": "If you choose to use our Service, then you agree to the collection and use of information in relation with this policy. The Personal Information that we collect are used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.",
+    "terms_note": "The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, unless otherwise defined in this Privacy Policy.",
+
+    "sections": {
+      "information_collection": {
+        "title": "Information Collection and Use",
+        "description": "For a better experience while using our Service, we may require you to provide us with certain personally identifiable information, including but not limited to your name, phone number, and postal address. The information that we collect will be used to contact or identify you."
+      },
+      "log_data": {
+        "title": "Log Data",
+        "description": "We want to inform you that whenever you visit our Service, we collect information that your browser sends to us that is called Log Data. This may include your IP address, browser version, pages visited, time/date, duration, and other statistics."
+      },
+      "cookies": {
+        "title": "Cookies",
+        "description": "Cookies are files with a small amount of data that is commonly used as an anonymous unique identifier. Our website uses cookies to collect information and improve our Service. You can accept or refuse them. Refusing may limit some features."
+      },
+      "service_providers": {
+        "title": "Service Providers",
+        "description": "We may employ third-party companies and individuals to facilitate, provide, analyze, or support our Service. They have access to your Personal Information to perform tasks on our behalf and are obligated not to misuse it."
+      },
+      "security": {
+        "title": "Security",
+        "description": "We value your trust and strive to use commercially acceptable means to protect your Personal Information. However, no internet transmission or electronic storage is 100% secure, and we cannot guarantee absolute safety."
+      },
+      "external_links": {
+        "title": "Links to Other Sites",
+        "description": "Our Service may contain links to third-party websites. We are not responsible for their privacy practices or content. We recommend reviewing their policies."
+      },
+      "children": {
+        "title": "Children's Privacy",
+        "description": "Our Services do not address anyone under the age of 13. If we learn that a child has provided us with personal information, we delete it. Parents can contact us to take appropriate action."
+      },
+      "changes": {
+        "title": "Changes to This Privacy Policy",
+        "description": "We may update our Privacy Policy from time to time. Check this page periodically. Changes take effect immediately after posting."
+      },
+      "contact": {
+        "title": "Contact Us",
+        "description": "If you have any questions or suggestions about our Privacy Policy, contact us at support@rentalerts.nl."
+      }
+    }
+  },
+
+  "cookie": {
+    "title": "Cookie Statement Metis International B.V.",
+    "intro": "Rentalerts.nl means the private company Metis International B.V., operating under the name Rentalerts.nl, located at P.O. Box 56822, 1040 AV Amsterdam, registered in the trade register of the Chamber of Commerce under number 91200725. We value the privacy of visitors to our website www.rentalerts.nl and comply with the Dutch Data Protection Act and the General Data Protection Regulation. This statement explains our cookie policy for www.rentalerts.nl.",
+
+    "whatAreCookies": {
+      "title": "What are cookies?",
+      "description": "Cookies are small, simple text files that are placed on your computer, tablet, or mobile phone via our website when you visit it. The cookies we use do not store personal data such as your password, name, address, or age. They only remember your preferences and interests. We use cookies for various reasons. Below you will find more about the 3 different categories of cookies that Metis International B.V. uses on the website www.rentalerts.nl."
+    },
+
+    "necessaryCookies": {
+      "title": "Necessary cookies",
+      "description": "Some cookies are necessary for our website to function. These cookies contribute to secure browsing and use of the website’s functionalities. Think of staying logged in while navigating between pages and remembering your cookie preferences. If your browser does not accept cookies from www.rentalerts.nl, you may not be able to use the website or your personal dashboard fully."
+    },
+
+    "statsCookies": {
+      "title": "Statistics cookies",
+      "description": "We strive for the best possible user experience. To achieve this, we use cookies that collect information about how our website is used. On our website, we use the following statistics cookies:",
+      "items": ["Google Analytics", "Hotjar"]
+    },
+
+    "externalCookies": {
+      "title": "External cookies",
+      "description": "We find it important to share only relevant information with you. We therefore use cookies that tell us something about your user profile—both on our website and on external websites. For example, if you viewed a certain page on our website, you may see an ad for that page on another website. On our site, we use the following external cookies:",
+      "items": [
+        { "name": "Facebook", "url": "https://facebook.com" },
+        { "name": "Google+", "url": "https://plus.google.com/" },
+        { "name": "Youtube", "url": "https://youtube.com" }
+      ],
+      "note": "Via special buttons from these platforms, you can easily share content from our site. For example, the Facebook 'Like' button and linking those preferences to visits to other websites. This is made possible by cookies. More information about what these platforms collect can be found on their respective websites."
+    },
+
+    "cookieOverview": {
+      "title": "Cookie overview",
+      "description": "We strive to keep this overview as up-to-date as possible. Last updated: 06-10-2022."
+    },
+
+    "blockOrRemove": {
+      "title": "How can you block or remove cookies?",
+      "description": "Would you prefer that www.rentalerts.nl not place cookies? Then you can block or delete them via your browser’s privacy settings. The site may function slower or not at all as a result. See the explanation under 'Necessary cookies'."
+    },
+
+    "blockCookies": {
+      "title": "Blocking cookies",
+      "description": "Want to prevent new cookies from being placed? Then block cookie storage on your device. You can block all cookies, specific types of cookies, or cookies from specific websites through your browser's privacy settings. Blocking cookies does not remove existing ones. You should also delete them manually with tools like HitmanPro or MalwareBytes."
+    },
+
+    "deleteCookies": {
+      "title": "Deleting cookies",
+      "description": "Want to delete all cookies on your device? You can, but be aware that doing so may reduce your browsing convenience—some settings will no longer be remembered, and you might miss relevant offers. After every internet session, new cookies will be placed again unless you’ve blocked them. You can find the delete option in your browser’s toolbar. Visit the sites for Internet Explorer, Mozilla Firefox, Google Chrome, or Safari for more info. Safari blocks advertiser cookies by default, but you can change this in Preferences → Privacy."
+    }
+  },
+
+  "properties": {
+    "noResultsFound": "No Results Found",
+    "noResultsFoundDescription": "We couldn't find any properties matching your criteria. Try adjusting your filters or search in a different location.",
+    "reload": "Reload",
+    "rooms": "Rooms",
+    "room": "Room",
+    "hago": "h ago",
+    "dago": "d ago",
+    "month": "month"
+  },
+
+  "filters": {
+    "top": "Explore Rental Property in the Netherlands",
+    "search": "Search Location",
+    "placeH": "Enter city",
+    "range": {
+      "title": "Price Range",
+      "min": "Min Price",
+      "max": "Max Price"
+    },
+    "rooms": "Bedrooms",
+    "suface": {
+      "title": "Min Surface (m2)",
+      "max": "Max Surface",
+      "min": "Min Surface"
+    }
+  },
+
+  "singleProperty": {
+    "goback": "Go Back",
+    "desc": "Description",
+    "featureTitle": "Features",
+    "feature": {
+      "surface": "Surface",
+      "rooms": "Rooms",
+      "interior": "Interior",
+      "features": "Features"
+    },
+    "additionalDetails": "Extra Details",
+    "details": "Others Details",
+    "similar": "Similar Properties",
+    "moreButton": {
+      "more": "» Read more",
+      "less": "« Read less"
+    },
+    "agent": {
+      "title": "Contact the Owner and Rent this Property Now",
+      "contact": "Contact Now"
+    }
+  }
+}

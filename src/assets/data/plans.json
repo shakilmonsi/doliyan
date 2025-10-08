@@ -1,0 +1,30 @@
+[
+  {
+    "id": "price_1SAroi9arufuKhYI0KS8vzcu",
+    "name": "Vrij",
+    "price": "€0",
+    "description": "Blijf gratis oriënteren",
+    "features": [
+      "1 foto zichtbaar per woning",
+      "Basisbeschrijving",
+      "Geen contact met verhuurder",
+      "Geen toegang tot alle foto’s"
+    ],
+    "recommended": false
+  },
+  {
+    "id": "price_1SArp89arufuKhYIspyZ5Kgs",
+    "name": "Premium",
+    "price": "€20",
+    "description": "Bekijk alles en reageer direct",
+    "features": [
+      "Alle foto’s zichtbaar (tot 25 per woning)",
+      "Volledige beschrijving & highlights",
+      "Direct reageren / contact met verhuurder",
+      "Hogere zichtbaarheid in zoekresultaten",
+      "Prioriteit bij nieuwe woningen",
+      "Statistieken & inzichten"
+    ],
+    "recommended": true
+  }
+]

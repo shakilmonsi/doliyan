@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --font-primary: "Inter", sans-serif;
+  --font-secondary: "Lato", sans-serif;
+  --color-primary: #f18c08;
+  --color-secondary: #082e63;
+  --color-accent: rgb(255, 255, 255);
+  --color-background: rgb(16, 24, 40);
+  --color-border-color: rgb(255, 255, 255);
+  --shadow-box-style: 1px 1px 1px 2px rgb(0 0 0 / 0.1);
+  --shadow-btn-style: 2px 2px 0px 2px rgb(0 0 0 / 0.1);
+  --color-card: rgb(25, 25, 25);
+  --color-cta: rgb(0, 122, 255);
+  --color-cta-active: rgb(0, 102, 215);
+  --color-cta-text: rgb(255, 255, 255);
+  --color-cta-txt-active: rgb(255, 230, 9);
+
+  --text-color-heading: #1f1f1f;
+  --text-color-title: #0d263c;
+  --text-color-pargraph: #4b4b4b;
+
+  --color-black: #000;
+  --color-white: #fff;
+
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-base: 16px;
+  --text-md: 16px;
+  --text-lg: 18px;
+  --text-xl: 20px;
+  --text-2xl: 24px;
+  --text-3xl: 30px;
+  --text-4xl: 36px;
+  --text-5xl: 48px;
+  --text-6xl: 60px;
+  --text-7xl: 72px;
+  --text-8xl: 96px;
+  --text-9xl: 128px;
+
+  --font-thin: 100;
+  --font-extralight: 200;
+  --font-light: 300;
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+  --font-extrabold: 800;
+  --font-black: 900;
+}
+
+@layer base {
+  h1 {
+    font-size: var(--text-6xl);
+    font-family: var(--font-primary);
+    font-weight: var(--font-bold);
+    color: var(--text-color-heading);
+  }
+
+  h2 {
+    font-size: var(--text-4xl);
+    font-family: var(--font-primary);
+    font-weight: var(--font-semibold);
+    color: var(--text-color-title);
+  }
+
+  h3 {
+    font-size: var(--text-xl); /* 18px */
+    font-family: var(--font-primary);
+    font-weight: var(--font-medium);
+    color: var(--text-color-title);
+  }
+
+  p {
+    font-size: var(--text-base);
+    font-family: var(--font-secondary);
+    font-weight: var(--font-normal);
+    color: var(--text-color-pargraph);
+  }
+
+  a {
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+  }
+
+  a:hover {
+    color: var(--color-cta-active);
+  }
+
+  button {
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+}
+
+/* ==========================
+   ⚙️ Global Transitions
+   ========================== */
+/* * {
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+} */
+
+/* ==========================
+     🎨 Gradient Animation
+     ========================== */
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animated-gradient {
+  background: linear-gradient(
+    -45deg,
+    var(--color-primary),
+    var(--color-secondary),
+    var(--color-primary)
+  );
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+}
