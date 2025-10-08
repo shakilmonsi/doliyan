@@ -5,6 +5,9 @@ const DropdownMenu = ({ trigger, children }) => {
   const dropdownRef = useRef(null);
 
   // Close on outside click
+  // Close on outside click
+  // Close on outside click
+  // Close on outside click
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
